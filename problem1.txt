@@ -1,0 +1,11 @@
+a) for the first parralel part. first n/2 loops will be assigned to a thread, last n/2 loops will be assigned
+to the second thread. Wait time will be sum(n/2+1,n)-sum(1,n/2) milliseconds. Since the 2 parrallel parts
+are symmetric, the waiting time is the same.
+b)if it is static 1, then it will be excuted alternatively by 2 different threads. for thread one the 
+excution time is sum(1,n/2,2), i.e. 1+3+5+...+n/2. and for the other thread the execution time is 
+sum (n/2 + 1,n,2).
+c)dynamic is in the mode first come first serve and it is kind of random so I am not sure if dynamic,1 will
+be better.
+d) we can use guided, so that it will try to make first loops with smaller index into a bigger chunck,
+and the latter thread will focus on those loops with larger index which will take longer time per loop.
+and it will use 2 threads.

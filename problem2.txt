@@ -1,0 +1,14 @@
+the result is:
+sequential-scan = 1.140989s
+64 threads used:
+parallel-scan   = 0.439317s
+error = 0
+
+32 threads used:
+parallel-scan   = 0.370656s
+error = 0
+
+Note, Since I am using crunchy1, the result is unstable, even for same threads setting the time varys about 0.1 seconds for parrallel-scan. 
+But from the result we can see that parallel scan is at least 2 times faster than sequential one. 
+
+
