@@ -1,22 +1,19 @@
 
-with 1 threads,N = 100,the time for 1000 iterations are: 0.116969
-with 1 threads,N = 1000,the time for 1000 iterations are: 16.278620
-with 1 threads,N = 2000,the time for 1000 iterations are: 63.979772
+with 1 threads,N = 10,the time for 1000 iterations are: 0.000855, error is: 0.000985
+with 1 threads,N = 100,the time for 1000 iterations are: 0.142112, error is: 50.572739
+with 1 threads,N = 1000,the time for 1000 iterations are: 22.005736, error is: 950.527721
 
-with 8 threads,N = 100,the time for 1000 iterations are: 0.070174
-with 8 threads,N = 1000,the time for 1000 iterations are: 2.131642
-with 8 threads,N = 2000,the time for 1000 iterations are: 11.537715
+with 8 threads,N = 10,the time for 1000 iterations are: 0.006551, error is: 0.000985
+with 8 threads,N = 100,the time for 1000 iterations are: 0.083731, error is: 50.572739
+with 8 threads,N = 1000,the time for 1000 iterations are: 2.607859, error is: 950.527721
 
-with 16 threads,N = 100,the time for 1000 iterations are: 0.112879
-with 16 threads,N = 1000,the time for 1000 iterations are: 1.529489
-with 16 threads,N = 2000,the time for 1000 iterations are: 4.938940
+with 16 threads,N = 10,the time for 1000 iterations are: 0.010120, error is: 0.000985
+with 16 threads,N = 100,the time for 1000 iterations are: 0.127223, error is: 50.572739
+with 16 threads,N = 1000,the time for 1000 iterations are: 1.838696, error is: 950.527721
 
-with 32 threads,N = 100,the time for 1000 iterations are: 0.155196
-with 32 threads,N = 1000,the time for 1000 iterations are: 1.880829
-with 32 threads,N = 2000,the time for 1000 iterations are: 5.192007
+with 32 threads,N = 10,the time for 1000 iterations are: 0.016317, error is: 0.000985
+with 32 threads,N = 100,the time for 1000 iterations are: 0.200305, error is: 50.572739
+with 32 threads,N = 1000,the time for 1000 iterations are: 2.046546, error is: 950.527721
 
-with 64 threads,N = 100,the time for 1000 iterations are: 4.280049
-with 64 threads,N = 1000,the time for 1000 iterations are: 7.309786
-with 64 threads,N = 2000,the time for 1000 iterations are: 17.060108
 
 
